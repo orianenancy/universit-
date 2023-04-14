@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans:ital@1&family=Poppins:ital@0;1&family=Smokum&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(252, 245, 236);
+    
+}
+
+/*-----------------la partie de mon " index.html"------------------------------------------------------------------------------------*/
+
+/*mon en-tête*/
+header{
+    height: 100px;
+}
+
+header div img{
+    max-width: 110px;
+    margin-top: 10px;
+    margin-left: 3rem;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.icone ul {
+    margin-bottom: 10px;
+    margin-right: 35px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+} 
+
+.icone ul a img:hover{
+     filter: grayscale(100);
+}
+
+.icone img{
+    max-width: 20px;
+
+}
+
+
+
+
+hr{
+    color: blue;
+    margin: 1rem 2rem 3rem 2rem;
+}
+
+
+
+/*ma partie nav*/
+nav{
+    height: 29px;
+    list-style: none;
+
+} 
+
+nav div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div li a{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav div li a:hover{
+    border-bottom: 2px solid black;
+    padding: 6px;
+}
+
+nav div img{
+    max-width: 40px;
+    
+}
+
+nav .ivoire{
+    margin-left: 20px;
+   
+}
+
+nav .senegal{
+    margin-right: 20px;
+}
+
+
+/*ma partie Section*/
+
+/*parti section image*/
+section.index img{
+   width: 1150px;
+   height: auto;
+   margin-top: 3rem;  
+   
+}
+section.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.index p.info1{
+    position: absolute;
+    padding: 50px;
+    font-size: 30px;
+    background-color: rgba(203, 206, 206, 0.7);
+    font-weight: bolder;
+    
+}
+
+section p.info1 img{
+    max-width: 30px;
+}
+
+button {
+    position: absolute;
+    color: rgb(253, 232, 205);
+    margin-top: 400px;
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 30px;
+}
+
+button a{
+    color: rgb(58, 52, 52);
+}
+
+button a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(233, 186, 31);
+    
+}
+
+
+
+
+
+
+/*------------------la partie de mon pied de page "footer"------------------------------------------ */
+
+/*partie du pied de page: footer*/
+footer{
+    height: 25px;
+    background-color: darkgrey;
+    margin-top: 3rem;
+}
+
+footer p{
+    padding-top: 4px;
+}
+
+
+
+
+
+/*----------------2eme page : plus_information ---------------------------------------------------------*/
+
+/*la partie de la section*/
+
+section.plus-info1 {
+    background-color: rgb(253, 232, 205);
+    margin-right: 20px ;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+section div img{
+    width: 700px;
+    height: auto;
+    margin: 50px;
+    box-shadow: -8px 8px 5px 2px rgba(9, 9, 10, 0.6);
+
+    
+} 
+
+
+section.plus-info2{
+    background-color: rgb(253, 232, 205);
+    margin-right: 20px ;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+section.plus-info3{
+    background-color: rgb(253, 232, 205);
+    margin-right: 20px ;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+section.plus-info4{
+    background-color: rgb(253, 232, 205);
+    margin-right: 20px ;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+section.plus-info5{
+    background-color: rgb(253, 232, 205);
+    margin-right: 20px ;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section.plus-info6{
+    background-color: rgb(253, 232, 205);
+    margin-right: 20px ;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+section h2{
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+/*---------------parti formation-----------------------------------------------------------------------------------*/
+
+/**/
+
+section div.formation{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    background-color: rgb(253, 232, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+section div.formation img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+section div.formation img:hover{
+    cursor: pointer;
+    width: 220px;
+    height: auto;
+}
+
+
+
+
+/*--------------------------partie de Deboucher------------------------------------------------------------------------------------------------------*/
+
+section.debouché{
+    margin: 50px;
+}
+
+
+
+
+/*-------------------------------partie concours-------------------------------------------------------------------------------------*/
+section {
+    margin: 40px;
+}
+
+
+
