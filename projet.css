@@ -24,6 +24,7 @@ header div img{
     max-width: 110px;
     margin-top: 10px;
     margin-left: 3rem;
+    
 }
 
 header div{
@@ -106,6 +107,8 @@ nav .senegal{
 }
 
 
+/*ma page index.html*/
+
 /*ma partie Section*/
 
 /*parti section image*/
@@ -113,8 +116,8 @@ section.index img{
    width: 1150px;
    height: auto;
    margin-top: 2rem;  
-   
 }
+
 section.index{
     display: flex;
     justify-content: center;
@@ -138,13 +141,13 @@ button {
     position: absolute;
     color: chocolate;
     margin-top: 400px;
-    font-size: 20px;
     padding: 13px;
     border-radius: 30px;
 }
 
 button a{
     color: rgb(58, 52, 52);
+    font-size: 20px;
 }
 
 button a:hover{
@@ -325,7 +328,7 @@ section h2{
 
 /*---------------parti formation-----------------------------------------------------------------------------------*/
 
-/**/
+/* partie section de formation*/
 
 section div.formation{
     margin-left: 50px;
@@ -370,3 +373,396 @@ section {
 
 
 
+/*"""""""""""""""""pour la taille maximum de 900px"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+@media screen and (max-width:900px){
+    /*partie en-tête*/
+    header{
+        height: 90px;
+    }
+
+    header div img{
+        max-width: 98px;
+        margin-top: 8px;
+        margin-left: 2.5rem;
+    }
+
+    .icone ul{
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    hr{
+        color: blue;
+        margin: 1rem 2rem 3rem 2rem;
+    }
+
+    /*partie nav*/
+
+    nav div ul{
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav div li a{
+        font-size: 16px;
+    }
+
+    nav div img{
+        max-width: 40px;
+    }
+
+    /*partie section de ma page index.html*/
+    section.index img{
+        width: 750px;
+        height: auto;
+        margin-top: 1.5rem;  
+    }
+
+    section.index p.info1{
+        padding: 40px;
+        font-size: 25px;
+    }
+
+    section p.info1 img{
+        max-width: 20px;
+    }
+
+    botton {
+        margin-top: 100px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /*ma parti foot*/
+    div.foot{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    div.foot div.drapeau img{
+        max-width: 120px;
+    }
+
+    /*------------2eme page : plus_information --------------------------------*/
+    /*la partie de la section*/
+
+    section div img{
+        width: 450px;
+        height: auto;
+        margin: 40px;
+    }
+
+
+    /*---------------partie formation-------------------------------------------*/
+    /* partie section de formation*/
+    section div.formation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+    }
+}
+
+
+
+
+/*""""""""""""""""""""""""pour la taille compris entre 900px et 1600px""""""""""""""*/
+
+@media screen and (max-width:1000px){
+    /*partie en-tête*/
+    header{
+        height: 80px;
+    }
+
+    header div img{
+        max-width: 98px;
+        margin-top: 10px;
+        margin-left: 2.5rem;
+    }
+
+    .icone ul{
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    hr{
+        color: blue;
+        margin: 1rem 2rem 3rem 2rem;
+    }
+
+    /*partie nav*/
+
+    nav div ul{
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    nav div li a{
+        font-size: 16px;
+    }
+
+    nav div img{
+        max-width: 30px;
+    }
+
+    /*partie section de ma page index.html*/
+    section.index img{
+        width:1000px;
+        height: auto;
+        margin-top: 1.5rem;  
+    }
+
+    section.index p.info1{
+        padding: 40px;
+        font-size: 27px;
+    }
+
+    section p.info1 img{
+        max-width: 20px;
+    }
+
+    botton {
+        margin-top: 100px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /*ma parti foot*/
+    div.foot{
+        display: flex;
+        gap: 15rem;
+    }
+
+    /*------------2eme page : plus_information --------------------------------*/
+    /*la partie de la section*/
+
+    section div img{
+        width: 500px;
+        height: auto;
+        margin: 40px;
+    }
+
+    section.plus-info1 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info2 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info3 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info4 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info5 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info6 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+
+    /*---------------partie formaition-------------------------------------------*/
+    /* partie section de formation*/
+}
+
+
+@media screen and (max-width:1110px) {
+
+    /*------------2eme page : plus_information --------------------------------*/
+    /*la partie de la section*/
+
+    section div img{
+        width: 600px;
+        height: auto;
+        margin: 40px;
+    }
+
+    /*ma parti foot*/
+    div.foot{
+        display: flex;
+        gap: 15rem;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    /*partie section de ma page index.html*/
+    section.index img{
+        width:800px;
+        height: auto;
+        margin-top: 1.5rem;  
+    }
+
+    section.index p.info1{
+        padding: 40px;
+        font-size: 22px;
+    }
+
+    section p.info1 img{
+        max-width: 20px;
+    }
+
+    /*ma parti foot*/
+    div.foot{
+        display: flex;
+        gap: 6.5rem;
+    }
+
+    div.foot div.drapeau img{
+        max-width: 120px;
+    }
+    
+
+    /*------------2eme page : plus_information --------------------------------*/
+    /*la partie de la section*/
+
+    section div img{
+        width: 500px;
+        height: auto;
+        margin: 40px;
+    }
+
+    section.plus-info1 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info2 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info3 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info4 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info5 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    section.plus-info6 {
+        background-color: rgb(253, 232, 205);
+        margin-right: 20px ;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    /*---------------partie formation-------------------------------------------*/
+    /* partie section de formation*/
+    
+    /* section div.formation{
+        margin-left: 0px;
+        margin-right: 0px;
+    } */
+
+    section div.formation{
+        margin-left: 50px;
+        margin-right: 10px;
+        padding-left: 10px;
+        background-color: rgb(253, 232, 205);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width:850px){
+    /*ma parti foot*/
+    div.foot{
+        display: flex;
+        gap: 11rem;
+    }
+}
+
+
+@media screen and (max-width:770px){
+    /*ma parti foot*/
+    div.foot{
+        display: flex;
+        gap: 9rem;
+    }
+}
+
+@media screen and (max-width:690px){
+    /*ma parti foot*/
+    div.foot{
+        display: flex;
+        gap: 7rem;
+    }
+
+    div.foot div.drapeau img{
+        max-width: 100px;
+    }
+}
