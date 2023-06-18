@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Delicious+Handrawn&family=Josefin+Sans:ital@1&family=Poppins:ital@0;1&family=Smokum&display=swap');
+
+*{   
+    font-family: 'Bree Serif', serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    margin-top: 0px ;
+    padding: 20px;
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+
+}
+
+fieldset legend{
+    padding-left: 30px;
+}
+
+.grand{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+fieldset{
+    border-radius: 30px;
+    margin: 10px 30px;
+}
+
+fieldset.fiel1{
+    margin-bottom: 30px;
+}
+
+input.inp{
+    width: 400px;
+    height: 9px;
+    padding: 10px;
+    background-color: rgb(197, 196, 196);
+}
+
+select{
+    height: 33px;
+}
+
+div.label2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.label2 input{
+    width: 200px;
+    height: 30px;
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+
+div.label2 input:hover{
+    color: white;
+    cursor: pointer;
+}
+

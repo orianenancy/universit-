@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2? family= Bree+Serif & family= Delicious+Handrawn & family= Josefin+Sans:ital@1 & family= Poppins:ital@0; 1 & famille= Smokum & display=swap');
+
+*{
+
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    padding: 20px;
+    margin: 10% auto;
+    height: auto ;
+    width: 550px;
+    background: #f6f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=text], input[type=tel], input[type=email]{
+    padding: 7px;
+    width: 350px;
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: rgb(40, 150, 184);
+    border: none;
+    padding: 5px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: aliceblue;
+    
+}
+.grand div{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    max-width: 520px;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2? family= Bree+Serif & family= Delicious+Handrawn & family= Josefin+Sans:ital@1 & family= Poppins:ital@0; 1 & famille= Smokum & display=swap');
+
+*{
+    
+    font-family: 'poppins', sans-serif;
+    
+}
+
+/* body {
+    background-image: url(R.jpg);
+    background-size: contain;
+} */
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form{
+    width: 600px;
+    height: auto;
+    margin: 2% auto;
+    padding: 20px;
+    background-color: #f6f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    
+}
+
+form div{
+    padding-bottom: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+input{
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    
+    color: black;
+}
+
+input[type="submit"]{
+    background-color: rgb(157, 255, 0);
+    font-weight: bold;
+    height: 33px;
+    font-size: 14px;
+    width: 200px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #666606;
+    font-size: 15px;
+    color: white;
+}
+
+select{
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    
+    color: black;
+}
+
+option{
+    color: black;
+}
+
+label{
+    margin-left: 60px;
+    font-weight: bold;
+    font-size: 17px;
+}

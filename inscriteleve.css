@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2? family= Bree+Serif & family= Delicious+Handrawn & family= Josefin+Sans:ital@1 & family= Poppins:ital@0; 1 & famille= Smokum & display=swap');
+
+*{
+
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(199, 199, 116);
+    
+}
+
+form{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+form div {
+    margin-bottom: 10px;
+    
+}
+
+form div label{
+    margin-right: 20px;
+}
+
+form {
+    
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+fieldset{
+    padding: 15px ;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-size: 30px;
+    
+}
+
+.grand{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+div.label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.autre div.parent div{
+    display: flex;
+    
+}
+
+.prt div{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+input{
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.sex  {
+    display: flex;
+    flex-direction: row;
+    gap: 320px;
+    
+}
+
+.sex .sex1 input {
+    max-width: 15px;
+}
+
+.sex .sex1 input:hover{
+    cursor: pointer;
+}
+
+select{
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input.bouton{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    /* margin-top: 20px; */
+    margin-left: 250px;
+    width: 300px;
+    border: none;
+    background-color: rgb(209, 209, 81);
+}
+
+input.bouton:hover{
+    cursor: pointer;
+    
+    color: beige;
+    
+}
